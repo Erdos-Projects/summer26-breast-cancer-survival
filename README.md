@@ -3,7 +3,7 @@ This repository contains the data and analysis for the Summer 2026 Breast Cancer
 
 ## Problem Statements
 1. How does survival differ across breast cancer subtypes — and how much worse off are triple-negative patients after adjusting for stage, grade, and treatment?
-2. Can we predict long-term survival at diagnosis, and does the same model work across subtypes — including the hard-to-treat TNBC group?
+2. Can we predict 5-year survival at diagnosis using clinical and tumor features available at time of diagnosis, and does the same model generalize across subtypes — including the hard-to-treat TNBC group?
 
 # Unit of analysis
 Survival in cancer subtypes
