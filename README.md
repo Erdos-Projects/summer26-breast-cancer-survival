@@ -28,6 +28,26 @@ Each instances in the data contains the following fields:
 | Outcomes | `OS_MONTHS`, `OS_STATUS`, `VITAL_STATUS`, `RFS_MONTHS`, `RFS_STATUS` |
 
 Where RFS: Recurrence Free Survival
+...
+| Outcomes | `OS_MONTHS`, `OS_STATUS`, `VITAL_STATUS`, `RFS_MONTHS`, `RFS_STATUS` |
+Where RFS: Recurrence Free Survival
+
+### Molecular Subtype Classification
+The `CLAUDIN_SUBTYPE` column is central to both problem statements. It classifies each tumor into one of six molecular subtypes based on gene expression:
+
+| Subtype | Key characteristics |
+|---|---|
+| Luminal A | ER+, slow-growing, best prognosis |
+| Luminal B | ER+, faster-growing, worse than Luminal A |
+| HER2-enriched | HER2 amplified, ER- |
+| Basal | Triple-negative proxy (ER−/PR−/HER2−), poorest early survival |
+| Claudin-low | Low cell-adhesion gene expression, overlaps with TNBC |
+| Normal-like | Resembles normal breast tissue |
+
+For our analysis, Basal and Claudin-low are the primary groups of interest as proxies for triple-negative breast cancer (TNBC).
+
+## Raw Data Statistics
+...
 
 Raw Data Statistics
 
