@@ -47,9 +47,6 @@ The `CLAUDIN_SUBTYPE` column is central to both problem statements. It classifie
 For our analysis, Basal and Claudin-low are the primary groups of interest as proxies for triple-negative breast cancer (TNBC).
 
 ## Raw Data Statistics
-...
-
-Raw Data Statistics
 
 | Metric | Value |
 |---|---|
