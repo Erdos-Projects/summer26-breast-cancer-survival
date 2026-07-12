@@ -61,4 +61,4 @@ Raw Data Statistics
 | Recurred | 1,002 (40.3%) |
 | Not Recurred | 1,486 (59.7%) |
 
-Detailed column statistics can be found in `data/raw/metabric_column_statistics.md` and these statistics were calculated with `data/raw/columns_statistics.py`
+Detailed column statistics can be found in `data/raw_data/metabric_column_statistics.md` and these statistics were calculated with `data/raw_data/columns_statistics.py`
