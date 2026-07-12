@@ -2,15 +2,15 @@
 This repository contains the data and analysis for the Summer 2026 Breast Cancer Survival team project
 
 ## Problem Statements
-1. How does survival differ across breast cancer subtypes — and how much worse off are triple-negative patients after adjusting for stage, grade, and treatment?
-2. Can we predict 5-year survival at diagnosis using clinical and tumor features available at time of diagnosis, and does the same model generalize across subtypes — including the hard-to-treat TNBC group?
+1. How does survival differ across breast cancer subtypes — and how much worse off are triple-negative patients compared to other cancer subtypes?
+2. Can we predict 5-year survival at diagnosis using clinical and tumor features available at time of diagnosis?
 
-# Unit of analysis
-Survival in cancer subtypes
+# Unit of Analysis
+5-year survival of cancer patients
 
 ## Data Source and Structure
 We collected the data from [METABRIC](https://www.cbioportal.org/study/summary?id=brca_metabric).<br>
-Downloaded raw data can be found in `data/raw/brca_metabric_clinical_data.tsv`
+Downloaded raw data can be found in `data/raw_data/brca_metabric_clinical_data.tsv`
 - Original records: 2509 patients from UK and Canada
 - File size: 730K
 - Errors accessing data: None
